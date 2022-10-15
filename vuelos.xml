@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE [
-  <!ELEMENT vuelos (vuelo*)>
-  <!ELEMENT vuelo (origen, destino)>
-  <!ELEMENT origen (#PCDATA)>
-  <!ELEMENT destino (#PCDATA)>
+<!DOCTYPE vuelos[
+<!ELEMENT vuelos (vuelo*)>
+<!ELEMENT vuelo ((origen, destino) | (destino, origen)) >
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
 ]>
 
 <vuelos>
