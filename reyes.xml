@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reyesEspañoles [
-  <!ELEMENT reyesEspañoles (rey*, reina*)>
-  <!ELEMENT rey (nombre, padre, madre)>
-  <!ELEMENT nombre (#PCDATA)>
-  <!ELEMENT padre (#PCDATA)>
-  <!ELEMENT madre (#PCDATA)>
+<!ELEMENT reyesEspañoles (rey*, reina*)>
+<!ELEMENT rey (nombre, padre, madre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT padre (#PCDATA)>
+<!ELEMENT madre (#PCDATA)>
 ]>
 
 <reyesEspañoles>
